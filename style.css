@@ -1,0 +1,33 @@
+html, body, div {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	letter-spacing: .1rem;
+	margin-bottom: 8px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fefff5;
+	color: #303024;
+}
+
+.subtitle {
+	margin-bottom: 40px;
+	font-style: italic;
+}
+
+.desc {
+	width: 700px;
+	margin-bottom: 40px;
+}
+
+.video-row {
+	display: flex;
+	margin-bottom: 40px;
+	gap: 40px;
+}
